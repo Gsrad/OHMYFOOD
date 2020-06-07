@@ -1,0 +1,34 @@
+@import "../import/origin";
+@import "../import/custom";
+@import "../import/menu";
+
+main{
+	font-family: $cd-police--menu2;
+	background-color:$cd-bcg--menu2;
+	h3{
+	background:$cd-gradient--menu2;
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;}
+		padding: 30px;
+	}
+.premier{
+	color: $cd-txt--menu2-1;
+	.colonne-element{
+		background-color: $cd-txt--menu2-1;
+	}
+}
+.second{
+	color: $cd-txt--menu2-2;
+	.colonne-element{
+		background-color: $cd-txt--menu2-2;
+	}
+}
+.troisieme{
+	color: $cd-txt--menu2-3;
+	.colonne-element{
+		background-color: $cd-txt--menu2-3;
+	}
+}
+table{
+	padding-bottom:20px;
+}

@@ -1,0 +1,17 @@
+@import "../import/origin";
+@import "../import/custom";
+@import "../import/menu";
+
+main{
+	font-family: $cd-police--menu1;
+	background-color:$cd-bcg--menu1;
+	
+	i{
+		margin-top: 30px;
+		font-size: 40px;
+		background: $cd-gradient--menu1;
+		-webkit-text-fill-color: transparent;
+      	-webkit-background-clip: text;
+      	padding: 20px;}
+}
+

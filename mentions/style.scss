@@ -1,0 +1,12 @@
+@import "../import/origin";
+@import "../import/custom";
+@import "../import/menu";
+
+main{
+	font-family: $cd-police--menu4;
+	background-color:$cd-bcg--menu4;
+	color: $cd-txt--menu;
+	section{
+		padding: 50px;
+	}
+}

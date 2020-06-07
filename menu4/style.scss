@@ -1,0 +1,22 @@
+@import "../import/origin";
+@import "../import/custom";
+@import "../import/menu";
+
+main{
+	font-family: $cd-police--menu4;
+	background-color:$cd-bcg--menu4;
+	h3{
+	background:$cd-gradient--menu4;
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;}
+		padding: 30px;
+	}
+.premier .colonne-element{
+	background-color: $cd-txt--menu4-1;
+}
+.second .colonne-element{
+	background-color: $cd-txt--menu4-2;
+}
+.troisieme .colonne-element{
+	background-color: $cd-txt--menu4-3;
+}

@@ -1,0 +1,12 @@
+@media only screen and (min-width: 600px){
+	main{
+		flex-direction: row;
+		flex-wrap: wrap;
+		section{
+			margin:30px;
+			width: 30%;
+			height: 450px;
+		}
+	}
+
+}

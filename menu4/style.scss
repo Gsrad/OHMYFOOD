@@ -8,15 +8,14 @@ main{
 	h3{
 	background:$cd-gradient--menu4;
 		-webkit-text-fill-color: transparent;
-		-webkit-background-clip: text;}
-		padding: 30px;
+		-webkit-background-clip: text;
+		padding: 30px;}
 	}
-.premier .colonne-element{
-	background-color: $cd-txt--menu4-1;
+.colonne-element:nth-child(1){
+	background:$cd-gradient--menu4;
+		-webkit-text-fill-color: transparent;
 }
-.second .colonne-element{
-	background-color: $cd-txt--menu4-2;
-}
-.troisieme .colonne-element{
-	background-color: $cd-txt--menu4-3;
+.colonne-element:nth-child(3){
+	background:$cd-gradient--menu4-1;
+		-webkit-text-fill-color: transparent;
 }

@@ -68,7 +68,7 @@ main {
   .colonne .colonne-element {
     background-color: #212121;
     width: 28%;
-    height: 2px; }
+    height: 3px; }
 
 .colonne-element:nth-child(1) {
   margin: 35px 5px 0 20px; }
@@ -78,20 +78,19 @@ main {
 
 main {
   font-family: "Kaushan Script", "Roboto", sans-serif;
-  background-color: #FAFAFA;
-  padding: 30px; }
+  background-color: #FAFAFA; }
   main h3 {
     background: linear-gradient(to right, #2E7D32, #43A047, #81C784);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; }
+    -webkit-background-clip: text;
+    padding: 30px; }
 
-.premier .colonne-element {
-  background-color: #2E7D32; }
+.colonne-element:nth-child(1) {
+  background: linear-gradient(to right, #2E7D32, #43A047, #81C784);
+  -webkit-text-fill-color: transparent; }
 
-.second .colonne-element {
-  background-color: #43A047; }
-
-.troisieme .colonne-element {
-  background-color: #81C784; }
+.colonne-element:nth-child(3) {
+  background: linear-gradient(to left, #2E7D32, #43A047, #81C784);
+  -webkit-text-fill-color: transparent; }
 
 /*# sourceMappingURL=style.css.map */

@@ -68,7 +68,7 @@ main {
   .colonne .colonne-element {
     background-color: #212121;
     width: 28%;
-    height: 2px; }
+    height: 3px; }
 
 .colonne-element:nth-child(1) {
   margin: 35px 5px 0 20px; }

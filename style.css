@@ -107,6 +107,39 @@ aside {
     main section {
       margin: 30px;
       width: 30%;
-      height: 450px; } }
+      height: 450px; }
+
+  .menu:hover {
+    transform: scale(1.3); } }
+.menu {
+  transition: transform 330ms ease-in-out; }
+
+.menu:hover {
+  transform: scale(1.1);
+  opacity: 0.5; }
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg); }
+  80% {
+    transform: rotate(0deg); }
+  85% {
+    transform: rotate(5deg); }
+  95% {
+    transform: rotate(-5deg); }
+  100% {
+    transform: rotate(0deg); } }
+.footer-info {
+  display: inline-block;
+  animation: wiggle 5s infinite; }
+
+.footer-info:hover {
+  animation: none; }
+
+.div {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */

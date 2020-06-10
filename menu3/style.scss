@@ -11,12 +11,27 @@ main{
 		-webkit-background-clip: text;}
 		padding: 30px;
 	}
-.premier .colonne-element{
+.premier{
+	.colonne-element{
 	background-color: $cd-txt--menu3-1;
+	}
+	h5:after{
+	background-color: $cd-txt--menu3-1;
+	}
 }
-.second .colonne-element{
+.second{
+.colonne-element{
 	background-color: $cd-txt--menu3-2;
+	}
+	h5:after{
+	background-color: $cd-txt--menu3-2;
+	}
 }
-.troisieme .colonne-element{
+.troisieme{
+	.colonne-element{
 	background-color: $cd-txt--menu3-3;
+	}
+	h5:after{
+	background-color: $cd-txt--menu3-3;
+	}
 }

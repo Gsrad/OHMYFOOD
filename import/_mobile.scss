@@ -72,17 +72,28 @@ main{
 }
 aside{
 	width: 40%;
-	height: 50px;
+	height: 80px;
 	border-radius: 3%;
 	text-align: center;
 	margin:auto;
 	margin-bottom: 150px;
 	background-color: $cd-panel;
 	h4{
-		padding-top: 15px;
 		color:$cd-txt--default;
 		font-size: 20px;
 		font-family: $cd-police--default;
+		display: inline-block;
+		margin-right: 10px;
 	}
 }
-
+.point{
+	display: inline-block;
+	.div{
+		width: 10px;
+	height: 10px;
+	background-color: $cd-txt--default;
+	display: inline-block;
+	border-radius: 50%;
+	margin-left: 3px;
+	}
+}

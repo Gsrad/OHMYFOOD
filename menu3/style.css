@@ -32,6 +32,31 @@ footer {
 /*police*/
 /*Couleur du site*/
 /*police*/
+.menu {
+  transition: transform 330ms ease-in-out; }
+
+.menu:hover {
+  transform: scale(1.1);
+  opacity: 0.5; }
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg); }
+  80% {
+    transform: rotate(0deg); }
+  85% {
+    transform: rotate(5deg); }
+  95% {
+    transform: rotate(-5deg); }
+  100% {
+    transform: rotate(0deg); } }
+.footer-info {
+  display: inline-block;
+  animation: wiggle 5s infinite; }
+
+.footer-info:hover {
+  animation: none; }
+
 main {
   width: 60%;
   text-align: center;
@@ -76,6 +101,20 @@ main {
 .colonne-element:nth-child(3) {
   margin: 35px 20px 0 5px; }
 
+h5 {
+  position: relative; }
+
+h5:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  display: block;
+  transition: 0.6s;
+  position: absolute; }
+
+h5:hover:after {
+  width: 100%; }
+
 main {
   font-family: "Dancing Script", "Roboto", sans-serif;
   background-color: #E1F5FE;
@@ -87,11 +126,17 @@ main {
 
 .premier .colonne-element {
   background-color: #0D47A1; }
+.premier h5:after {
+  background-color: #0D47A1; }
 
 .second .colonne-element {
   background-color: #1E88E5; }
+.second h5:after {
+  background-color: #1E88E5; }
 
 .troisieme .colonne-element {
+  background-color: #42A5F5; }
+.troisieme h5:after {
   background-color: #42A5F5; }
 
 /*# sourceMappingURL=style.css.map */

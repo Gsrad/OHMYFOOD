@@ -88,17 +88,28 @@ main {
 
 aside {
   width: 40%;
-  height: 50px;
+  height: 80px;
   border-radius: 3%;
   text-align: center;
   margin: auto;
   margin-bottom: 150px;
   background-color: #579C87; }
   aside h4 {
-    padding-top: 15px;
     color: #fcca46;
     font-size: 20px;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    margin-right: 10px; }
+
+.point {
+  display: inline-block; }
+  .point .div {
+    width: 10px;
+    height: 10px;
+    background-color: #fcca46;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 3px; }
 
 @media only screen and (min-width: 600px) {
   main {
@@ -135,5 +146,28 @@ aside {
 
 .footer-info:hover {
   animation: none; }
+
+@keyframes wait {
+  0% {
+    margin-bottom: 0px; }
+  50% {
+    margin-bottom: 10px;
+    opacity: 0.8; }
+  100% {
+    margin-bottom: 0px; } }
+.div:nth-child(1) {
+  display: inline-block;
+  animation: wait 1.2s infinite;
+  animation-delay: 0.2s; }
+
+.div:nth-child(2) {
+  display: inline-block;
+  animation: wait 1.2s infinite;
+  animation-delay: 0.4s; }
+
+.div:nth-child(3) {
+  display: inline-block;
+  animation: wait 1.2s infinite;
+  animation-delay: 0.6s; }
 
 /*# sourceMappingURL=style.css.map */

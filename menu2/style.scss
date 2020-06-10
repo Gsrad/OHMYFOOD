@@ -16,18 +16,27 @@ main{
 	.colonne-element{
 		background-color: $cd-txt--menu2-1;
 	}
+	h5:after{
+	background-color: $cd-txt--menu2-1;
+}
 }
 .second{
 	color: $cd-txt--menu2-2;
 	.colonne-element{
 		background-color: $cd-txt--menu2-2;
 	}
+	h5:after{
+	background-color: $cd-txt--menu2-2;
+}
 }
 .troisieme{
 	color: $cd-txt--menu2-3;
 	.colonne-element{
 		background-color: $cd-txt--menu2-3;
 	}
+	h5:after{
+	background-color: $cd-txt--menu2-3;
+}
 }
 table{
 	padding-bottom:20px;

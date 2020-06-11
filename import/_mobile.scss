@@ -15,7 +15,7 @@ main{
 	margin-top:20px;
 	margin-bottom: 30px;
 	box-shadow: $cd-boxshadow;
-		.menu{
+		.resto{
 		margin-top: 100px;
 		}
 	}
@@ -23,7 +23,7 @@ main{
 	section:nth-child(1){
 		background-color: $cd-bcg--menu1;
 		font-family: $cd-police--menu1;
-		.menu{
+		.resto{
 		color:$cd-txt--menu;
 		margin-top: 80px;
 		}
@@ -72,7 +72,7 @@ main{
 }
 aside{
 	width: 40%;
-	height: 80px;
+	height: 120px;
 	border-radius: 3%;
 	text-align: center;
 	margin:auto;

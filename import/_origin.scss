@@ -16,15 +16,13 @@ header, footer{
 	background-color: $cd-panel;
 	font-family: $cd-police--default;
 	
-	h1,h2{
+	h1{
 		margin:0;
 		padding-top: 20px;
+		text-align: center;
 	}
 	a{
 		color:$cd-txt--default;
-	}
-	h1{
-		text-align: center;
 	}
 }
 footer{
@@ -32,4 +30,22 @@ footer{
 	justify-content: space-around;
 	position: fixed;
 	bottom: 0;
+	flex-direction: column;
+	.footer-info
+	{
+		display: flex;
+		justify-content: center;
+	}
+	h2{
+		margin:0;
+	}
+}
+
+@media only screen and (min-width: 600px){
+footer{
+	flex-direction:row;
+	h2{
+		margin-top: 20px;
+	}
+}
 }

@@ -14,24 +14,78 @@ header, footer {
   margin: 0px;
   background-color: #579C87;
   font-family: "Roboto", sans-serif; }
-  header h1, header h2, footer h1, footer h2 {
+  header h1, footer h1 {
     margin: 0;
-    padding-top: 20px; }
+    padding-top: 20px;
+    text-align: center; }
   header a, footer a {
     color: #fcca46; }
-  header h1, footer h1 {
-    text-align: center; }
 
 footer {
   display: flex;
   justify-content: space-around;
   position: fixed;
-  bottom: 0; }
+  bottom: 0;
+  flex-direction: column; }
+  footer .footer-info {
+    display: flex;
+    justify-content: center; }
+  footer h2 {
+    margin: 0; }
 
+@media only screen and (min-width: 600px) {
+  footer {
+    flex-direction: row; }
+    footer h2 {
+      margin-top: 20px; } }
 /*Couleur du site*/
 /*police*/
 /*Couleur du site*/
 /*police*/
+.resto {
+  transition: transform 330ms ease-in-out; }
+
+.resto:hover {
+  transform: scale(1.1);
+  opacity: 0.5; }
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg); }
+  80% {
+    transform: rotate(0deg); }
+  85% {
+    transform: rotate(5deg); }
+  95% {
+    transform: rotate(-5deg); }
+  100% {
+    transform: rotate(0deg); } }
+.footer-info {
+  animation: wiggle 4s infinite; }
+
+@keyframes wait {
+  0% {
+    margin-bottom: 0px; }
+  50% {
+    margin-bottom: 10px;
+    opacity: 0.8; }
+  100% {
+    margin-bottom: 0px; } }
+.div:nth-child(1) {
+  display: inline-block;
+  animation: wait 1.2s infinite;
+  animation-delay: 0.2s; }
+
+.div:nth-child(2) {
+  display: inline-block;
+  animation: wait 1.2s infinite;
+  animation-delay: 0.4s; }
+
+.div:nth-child(3) {
+  display: inline-block;
+  animation: wait 1.2s infinite;
+  animation-delay: 0.6s; }
+
 main {
   width: 60%;
   text-align: center;
@@ -51,7 +105,7 @@ main {
     font-size: 30px; }
   main h5 {
     font-size: 25px;
-    margin: 20px 0 20px 0; }
+    margin: 20px 20px; }
   main td {
     padding-bottom: 15px; }
   main tr td:nth-child(1) {
@@ -63,18 +117,32 @@ main {
 
 .colonne {
   display: flex; }
-  .colonne h5 {
-    flex: 1; }
-  .colonne .colonne-element {
-    background-color: #212121;
-    width: 28%;
-    height: 2px; }
+
+.colonne-element {
+  background-color: #212121;
+  width: 28%;
+  height: 3px;
+  flex: 1; }
 
 .colonne-element:nth-child(1) {
   margin: 35px 5px 0 20px; }
 
 .colonne-element:nth-child(3) {
   margin: 35px 20px 0 5px; }
+
+h5 {
+  position: relative; }
+
+h5:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  display: block;
+  transition: 0.6s;
+  position: absolute; }
+
+h5:hover:after {
+  width: 100%; }
 
 main {
   font-family: "Kaushan Script", "Roboto", sans-serif;

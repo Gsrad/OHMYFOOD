@@ -1,8 +1,8 @@
-.menu {
+.resto {
     transition: transform 330ms ease-in-out;
 }
 
-.menu:hover{
+.resto:hover{
 	  transform: scale(1.1);
 	  opacity: 0.5;
     }
@@ -15,12 +15,7 @@
 }
 
 .footer-info {
-  display: inline-block;
-  animation: wiggle 5s infinite;
-}
-
-.footer-info:hover {
-  animation: none;
+  animation: wiggle 4s infinite;
 }
 
 @keyframes wait {

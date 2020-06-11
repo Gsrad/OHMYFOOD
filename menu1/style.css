@@ -51,17 +51,19 @@ footer {
 
 @keyframes wiggle {
   0% {
-    transform: rotate(0deg); }
+    -webkit-transform: rotate(0deg); }
+  20% {
+    -webkit-transform: rotate(5deg); }
+  40% {
+    -webkit-transform: rotate(-5deg); }
+  60% {
+    -webkit-transform: rotate(5deg); }
   80% {
-    transform: rotate(0deg); }
-  85% {
-    transform: rotate(5deg); }
-  95% {
-    transform: rotate(-5deg); }
+    -webkit-transform: rotate(-5deg); }
   100% {
-    transform: rotate(0deg); } }
-.footer-info {
-  animation: wiggle 4s infinite; }
+    -webkit-transform: rotate(0deg); } }
+.footer-info:hover {
+  animation: wiggle 0.4s; }
 
 @keyframes wait {
   0% {
@@ -87,7 +89,7 @@ footer {
   animation-delay: 0.6s; }
 
 main {
-  width: 60%;
+  width: 80%;
   text-align: center;
   margin: auto;
   margin-top: 30px;
@@ -96,7 +98,7 @@ main {
   box-shadow: 0.5px 0.5px 8px grey; }
   main table {
     margin: auto;
-    width: 70%; }
+    width: 90%; }
   main h3 {
     margin: 20px 0 20px 0;
     font-size: 40px; }
@@ -109,20 +111,19 @@ main {
   main td {
     padding-bottom: 15px; }
   main tr td:nth-child(1) {
-    text-align: left;
-    padding-right: 30px; }
+    text-align: left; }
   main tr td:nth-child(2) {
     text-align: right;
-    padding-left: 30px; }
+    padding-left: 15px; }
 
 .colonne {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 .colonne-element {
   background-color: #212121;
-  width: 28%;
-  height: 3px;
-  flex: 1; }
+  width: 30%;
+  height: 3px; }
 
 .colonne-element:nth-child(1) {
   margin: 35px 5px 0 20px; }
@@ -144,6 +145,9 @@ h5:after {
 h5:hover:after {
   width: 100%; }
 
+@media only screen and (min-width: 600px) {
+  main {
+    width: 70%; } }
 main {
   font-family: "Courgette", "Roboto", sans-serif;
   background-color: #ffcdd2; }

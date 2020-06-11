@@ -49,7 +49,7 @@ main {
   width: 100%;
   justify-content: center; }
   main section {
-    width: 50%;
+    width: 70%;
     height: 400px;
     font-size: 25px;
     margin: auto;
@@ -88,8 +88,7 @@ main {
       color: #0D47A1; }
   main section:nth-child(4) {
     background-color: #FAFAFA;
-    font-family: "Kaushan Script", "Roboto", sans-serif;
-    font-size: 20px; }
+    font-family: "Kaushan Script", "Roboto", sans-serif; }
     main section:nth-child(4) p {
       background: linear-gradient(to right, #2E7D32, #43A047, #81C784);
       -webkit-text-fill-color: transparent;
@@ -145,17 +144,19 @@ aside {
 
 @keyframes wiggle {
   0% {
-    transform: rotate(0deg); }
+    -webkit-transform: rotate(0deg); }
+  20% {
+    -webkit-transform: rotate(5deg); }
+  40% {
+    -webkit-transform: rotate(-5deg); }
+  60% {
+    -webkit-transform: rotate(5deg); }
   80% {
-    transform: rotate(0deg); }
-  85% {
-    transform: rotate(5deg); }
-  95% {
-    transform: rotate(-5deg); }
+    -webkit-transform: rotate(-5deg); }
   100% {
-    transform: rotate(0deg); } }
-.footer-info {
-  animation: wiggle 4s infinite; }
+    -webkit-transform: rotate(0deg); } }
+.footer-info:hover {
+  animation: wiggle 0.4s; }
 
 @keyframes wait {
   0% {

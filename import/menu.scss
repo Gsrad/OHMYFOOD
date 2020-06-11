@@ -2,7 +2,7 @@
 @import "../import/animation";
 
 main{
-	width: 60%;
+	width: 80%;
 	text-align: center;
 	margin:auto;
 	margin-top: 30px;
@@ -11,7 +11,7 @@ main{
 	box-shadow: $cd-boxshadow;
 	table{
 		margin:auto;
-		width: 70%;}
+		width: 90%;}
 	h3{
 		margin:20px 0 20px 0;
 		font-size: 40px;}
@@ -27,22 +27,23 @@ main{
 	}
 	tr td:nth-child(1){
 		text-align: left;
-		padding-right: 30px;}
+		}
 	tr td:nth-child(2){
 		text-align: right;
-		padding-left:30px;}
+		padding-left: 15px;
+		}
 }
 
 
 
 .colonne{
      	display: flex;
+     	justify-content: space-between;
      }
  	.colonne-element{
      background-color: $cd-txt--menu;
-     width: 28%;
+     width: 30%;
      height: 3px;
-     flex:1;
      }
      	
 .colonne-element:nth-child(1){
@@ -66,4 +67,9 @@ h5:after{
 }
 h5:hover:after{
 	width: 100%;
+}
+@media only screen and (min-width: 600px){
+	main{
+	width: 70%;
+}
 }

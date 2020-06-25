@@ -1,6 +1,7 @@
 @import "../import/origin";
 @import "../import/custom";
 @import "../import/menu";
+@import "../import/desktop_menu";
 
 main{
 	font-family: $cd-police--menu2;
@@ -11,33 +12,39 @@ main{
 		-webkit-background-clip: text;}
 		padding: 30px;
 	}
+table{
+	padding-bottom:20px;
+}
+/*partie 1*/
 .premier{
 	color: $cd-txt--menu2-1;
 	.colonne-element{
 		background-color: $cd-txt--menu2-1;
 	}
+	/*couleur du soulignement du h5*/
 	h5:after{
 	background-color: $cd-txt--menu2-1;
 }
 }
+/*partie 2*/
 .second{
 	color: $cd-txt--menu2-2;
 	.colonne-element{
 		background-color: $cd-txt--menu2-2;
 	}
+	/*couleur du soulignement du h5*/
 	h5:after{
 	background-color: $cd-txt--menu2-2;
 }
 }
+/*partie 3*/
 .troisieme{
 	color: $cd-txt--menu2-3;
 	.colonne-element{
 		background-color: $cd-txt--menu2-3;
 	}
+	/*couleur du soulignement du h5*/
 	h5:after{
 	background-color: $cd-txt--menu2-3;
 }
-}
-table{
-	padding-bottom:20px;
 }

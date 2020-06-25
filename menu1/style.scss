@@ -1,6 +1,7 @@
 @import "../import/origin";
 @import "../import/custom";
 @import "../import/menu";
+@import "../import/desktop_menu";
 
 main{
 	font-family: $cd-police--menu1;
@@ -15,6 +16,7 @@ main{
       	padding: 20px;}
 }
 
+/*couleur du soulignement du h5*/
 h5:after{
 	background-color: $cd-txt--menu;
 }

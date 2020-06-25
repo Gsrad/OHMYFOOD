@@ -8,10 +8,18 @@
 			height: 450px;
 		}
 	}
-.resto:hover{
-	  transform: scale(1.3);
-    }
-    aside{
+	aside{
     	height: 80px;
     }
+    footer{
+	flex-direction:row;
+		h2{
+			margin-top: 20px;
+		}
+	}
+/*effet de zoom des menus*/
+	.resto:hover{
+	  transform: scale(1.3);
+    }
 }
+	

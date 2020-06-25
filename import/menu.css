@@ -6,53 +6,6 @@
 /*Couleur des d├®grad├®s*/
 /*Couleur des menus*/
 /****police****/
-* {
-  text-decoration: none; }
-
-body {
-  width: 100%;
-  background-color: #FAFAFA;
-  margin: 0; }
-
-header, footer {
-  width: 100%;
-  height: 80px;
-  margin: 0px;
-  background-color: #579C87;
-  font-family: "Roboto", sans-serif; }
-  header h1, footer h1 {
-    margin: 0;
-    padding-top: 20px;
-    text-align: center; }
-  header a, footer a {
-    color: #fcca46; }
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  bottom: 0;
-  flex-direction: column; }
-  footer .footer-info {
-    display: flex;
-    justify-content: center; }
-  footer h2 {
-    margin: 0; }
-
-/****Couleur du site****/
-/*Couleur de fond*/
-/*Couleur du bandeau*/
-/*Couleur de fond des menus*/
-/*Couleur des d├®grad├®s*/
-/*Couleur des menus*/
-/****police****/
-/****Couleur du site****/
-/*Couleur de fond*/
-/*Couleur du bandeau*/
-/*Couleur de fond des menus*/
-/*Couleur des d├®grad├®s*/
-/*Couleur des menus*/
-/****police****/
 /*animation des menus*/
 .resto {
   transition: transform 330ms ease-in-out; }
@@ -159,42 +112,4 @@ h5:after {
 h5:hover:after {
   width: 100%; }
 
-@media only screen and (min-width: 600px) {
-  footer {
-    flex-direction: row; }
-    footer h2 {
-      margin-top: 20px; } }
-main {
-  font-family: "Dancing Script", "Roboto", sans-serif;
-  background-color: #E1F5FE;
-  padding: 30px; }
-  main h3 {
-    background: linear-gradient(to right, #0D47A1, #1E88E5, #42A5F5);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; }
-
-/*partie 1*/
-.premier {
-  /*couleur du soulignement du h5*/ }
-  .premier .colonne-element {
-    background-color: #0D47A1; }
-  .premier h5:after {
-    background-color: #0D47A1; }
-
-/*partie 2*/
-.second {
-  /*couleur du soulignement du h5*/ }
-  .second .colonne-element {
-    background-color: #1E88E5; }
-  .second h5:after {
-    background-color: #1E88E5; }
-
-/*partie 3*/
-.troisieme {
-  /*couleur du soulignement du h5*/ }
-  .troisieme .colonne-element {
-    background-color: #42A5F5; }
-  .troisieme h5:after {
-    background-color: #42A5F5; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=menu.css.map */

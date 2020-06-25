@@ -1,19 +1,25 @@
-/*Couleur du site*/
+/****Couleur du site****/
+
+/*Couleur de fond*/
 $cd-body:#FAFAFA;
 
+/*Couleur du bandeau*/
 $cd-panel:#579C87;
 
+/*Couleur de fond des menus*/
 $cd-bcg--menu1:#ffcdd2;
 $cd-bcg--menu2:#ffebee;
 $cd-bcg--menu3:#E1F5FE;
 $cd-bcg--menu4:#FAFAFA;
 
+/*Couleur des dégradés*/
 $cd-gradient--menu1:linear-gradient(to right, #d32f2f, #F9A825);
 $cd-gradient--menu2:linear-gradient(to right, #F9A825, #AB47BC, #5C6BC0);
 $cd-gradient--menu3:linear-gradient(to right, #0D47A1, #1E88E5, #42A5F5);
 $cd-gradient--menu4:linear-gradient(to right, #2E7D32, #43A047, #81C784);
 $cd-gradient--menu4-1:linear-gradient(to left, #2E7D32, #43A047, #81C784);
 
+/*Couleur des menus*/
 $cd-txt--default:#fcca46;
 $cd-txt--menu:#212121;
 $cd-txt--menu2-1:#F9A825;
@@ -29,7 +35,7 @@ $cd-txt--menu4-3:#81C784;
 $cd-boxshadow:0.5px 0.5px 8px grey;
 
 
-/*police*/
+/****police****/
 $cd-police--default:'Roboto', sans-serif;
 $cd-police--menu1:'Courgette', 'Roboto', sans-serif;
 $cd-police--menu2:'Berkshire Swash',  'Roboto', sans-serif;

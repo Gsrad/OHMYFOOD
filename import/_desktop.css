@@ -1,0 +1,22 @@
+@media only screen and (min-width: 600px) {
+  main {
+    flex-direction: row;
+    flex-wrap: wrap; }
+    main section {
+      margin: 30px;
+      width: 30%;
+      height: 450px; }
+
+  aside {
+    height: 80px; }
+
+  footer {
+    flex-direction: row; }
+    footer h2 {
+      margin-top: 20px; }
+
+  /*effet de zoom des menus*/
+  .resto:hover {
+    transform: scale(1.3); } }
+
+/*# sourceMappingURL=_desktop.css.map */

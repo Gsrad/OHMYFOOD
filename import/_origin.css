@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/****Couleur du site****/
+/*Couleur de fond*/
+/*Couleur du bandeau*/
+/*Couleur de fond des menus*/
+/*Couleur des d├®grad├®s*/
+/*Couleur des menus*/
+/****police****/
+* {
+  text-decoration: none; }
+
+body {
+  width: 100%;
+  background-color: #FAFAFA;
+  margin: 0; }
+
+header, footer {
+  width: 100%;
+  height: 80px;
+  margin: 0px;
+  background-color: #579C87;
+  font-family: "Roboto", sans-serif; }
+  header h1, footer h1 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center; }
+  header a, footer a {
+    color: #fcca46; }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  flex-direction: column; }
+  footer .footer-info {
+    display: flex;
+    justify-content: center; }
+  footer h2 {
+    margin: 0; }
+
+/*# sourceMappingURL=_origin.css.map */

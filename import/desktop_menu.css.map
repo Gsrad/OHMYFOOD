@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,yCAAyC;EACxC,MAAM;IACN,cAAc,EAAC,GAAG;IACjB,SAAE;MACD,UAAU,EAAE,IAAI",
+"sources": ["desktop_menu.scss"],
+"names": [],
+"file": "desktop_menu.css"
+}

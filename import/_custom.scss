@@ -7,17 +7,17 @@ $cd-body:#FAFAFA;
 $cd-panel:#579C87;
 
 /*Couleur de fond des menus*/
-$cd-bcg--menu1:#ffcdd2;
-$cd-bcg--menu2:#ffebee;
-$cd-bcg--menu3:#E1F5FE;
-$cd-bcg--menu4:#FAFAFA;
+$cd-bcg--menu1:rgb(252,223,219);
+$cd-bcg--menu2:rgb(255,245,254);
+$cd-bcg--menu3:rgb(249,249,249);
+$cd-bcg--menu4:rgb(255,253,255);
 
 /*Couleur des dégradés*/
 $cd-gradient--menu1:linear-gradient(to right, #d32f2f, #F9A825);
 $cd-gradient--menu2:linear-gradient(to right, #F9A825, #AB47BC, #5C6BC0);
-$cd-gradient--menu3:linear-gradient(to right, #0D47A1, #1E88E5, #42A5F5);
-$cd-gradient--menu4:linear-gradient(to right, #2E7D32, #43A047, #81C784);
-$cd-gradient--menu4-1:linear-gradient(to left, #2E7D32, #43A047, #81C784);
+$cd-gradient--menu3:linear-gradient(to right, #0D47A1, #1E88E5, #B2EBF2);
+$cd-gradient--menu4:linear-gradient(to right, #1B5E20, #AED581, #F9FBE7);
+$cd-gradient--menu4-1:linear-gradient(to left, #1B5E20, #AED581, #F9FBE7);
 
 /*Couleur des menus*/
 $cd-txt--default:#fcca46;
@@ -25,10 +25,10 @@ $cd-txt--menu:#212121;
 $cd-txt--menu2-1:#F9A825;
 $cd-txt--menu2-2:#AB47BC;
 $cd-txt--menu2-3:#5C6BC0;
-$cd-txt--menu3-1:#0D47A1;
+$cd-txt--menu3-1:rgb(8,135,251);
 $cd-txt--menu3-2:#1E88E5;
 $cd-txt--menu3-3:#42A5F5;
-$cd-txt--menu4-1:#2E7D32;
+$cd-txt--menu4-1:rgb(114,191,86);
 $cd-txt--menu4-2:#43A047;
 $cd-txt--menu4-3:#81C784;
 

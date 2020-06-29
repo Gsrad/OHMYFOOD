@@ -166,23 +166,23 @@ h5:hover:after {
       margin-top: 20px; } }
 main {
   font-family: "Kaushan Script", "Roboto", sans-serif;
-  background-color: #FAFAFA; }
+  background-color: #fffdff; }
   main h3 {
-    background: linear-gradient(to right, #2E7D32, #43A047, #81C784);
+    background: linear-gradient(to right, #1B5E20, #AED581, #F9FBE7);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     padding: 30px; }
 
 .colonne-element:nth-child(1) {
-  background: linear-gradient(to right, #2E7D32, #43A047, #81C784);
+  background: linear-gradient(to right, #1B5E20, #AED581, #F9FBE7);
   -webkit-text-fill-color: transparent; }
 
 .colonne-element:nth-child(3) {
-  background: linear-gradient(to left, #2E7D32, #43A047, #81C784);
+  background: linear-gradient(to left, #1B5E20, #AED581, #F9FBE7);
   -webkit-text-fill-color: transparent; }
 
 /*couleur du soulignement du h5*/
 h5:after {
-  background-color: #2E7D32; }
+  background-color: #72bf56; }
 
 /*# sourceMappingURL=style.css.map */

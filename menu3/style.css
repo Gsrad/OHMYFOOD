@@ -166,10 +166,10 @@ h5:hover:after {
       margin-top: 20px; } }
 main {
   font-family: "Dancing Script", "Roboto", sans-serif;
-  background-color: #E1F5FE;
+  background-color: #f9f9f9;
   padding: 30px; }
   main h3 {
-    background: linear-gradient(to right, #0D47A1, #1E88E5, #42A5F5);
+    background: linear-gradient(to right, #0D47A1, #1E88E5, #B2EBF2);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; }
 
@@ -177,9 +177,9 @@ main {
 .premier {
   /*couleur du soulignement du h5*/ }
   .premier .colonne-element {
-    background-color: #0D47A1; }
+    background-color: #0887fb; }
   .premier h5:after {
-    background-color: #0D47A1; }
+    background-color: #0887fb; }
 
 /*partie 2*/
 .second {
